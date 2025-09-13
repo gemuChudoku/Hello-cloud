@@ -18,6 +18,9 @@ app.get("/version", (_req, res) => {
   res.json({ name: "hello-cloud", version: "1.0.0" });
 });
 
+app.get("/caleda", (_req, res) => {
+  res.json({ name: "hola vv q me dijiste uwu casate conmigo, por dios te lo pido", version: "1.0.0" });
+});
  
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
