@@ -23,7 +23,7 @@ app.get("/caleda", (_req, res) => {
 });
 
 app.get("/ping", (_req, res) => {
-  res.json({ pong: true, at: new Date().toISOString() });
+  res.json({ name:" carlos losada, harvey lozada, leslly hurtado", pong: true, at: new Date().toISOString() });
 });
  
 app.listen(PORT, () => {
